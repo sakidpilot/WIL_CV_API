@@ -1,0 +1,110 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    background-image: url('southafrica.jpg');
+}
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 24px;
+}
+
+.login-form input {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form button:active {
+    transform: scale(0.98);
+}
+
+.signup-text {
+    margin-top: 15px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+.signup-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Loading state */
+.login-form button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .login-form {
+        margin: 0 20px;
+        padding: 1.5rem;
+    }
+
+    .login-form h2 {
+        font-size: 20px;
+    }
+
+    .login-form input,
+    .login-form button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,66 @@
+.cv-preview-container {
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background-image: url('cvpage.jpg');
+  }
+  
+  .cv-preview-frame {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    margin-left: 680px; /* Adds space between heading and button */
+}
+
+.nav-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-text {
+    font-weight: 500;
+}
+
+.button-icon {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.nav-button:hover .button-icon {
+    transform: translateX(5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}

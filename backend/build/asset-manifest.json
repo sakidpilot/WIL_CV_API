@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba14f64c.css",
+    "main.js": "/static/js/main.ebdbe61f.js",
+    "static/media/dashboard.jpg": "/static/media/dashboard.c8dd7f0be90ac0bb27a3.jpg",
+    "static/media/cvpage.jpg": "/static/media/cvpage.584375f4413fccff4480.jpg",
+    "static/media/southafrica.jpg": "/static/media/southafrica.58b92786f683a4b602cd.jpg",
+    "static/media/motivation.jpg": "/static/media/motivation.aa5cf38e25c5593cb193.jpg",
+    "index.html": "/index.html",
+    "main.ba14f64c.css.map": "/static/css/main.ba14f64c.css.map",
+    "main.ebdbe61f.js.map": "/static/js/main.ebdbe61f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba14f64c.css",
+    "static/js/main.ebdbe61f.js"
+  ]
+}
