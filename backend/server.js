@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(cors());
 app.use(cors({ origin: 'https://wil-cv-builder.azurewebsites.net' }));
 
-app.use("/api/auth", require("./routes/authRoutes"));
-app.use("/api/cv", require("./routes/cvRoutes"));
+app.use("/auth", require("./routes/authRoutes")); ///api
+app.use("/cv", require("./routes/cvRoutes"));  ///api
 
 app.use(express.static(path.join(__dirname, 'build')));
 
