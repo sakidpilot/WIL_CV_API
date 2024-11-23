@@ -10,6 +10,7 @@ connectDB();
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use(cors({ origin: 'https://wil-cv-builder.azurewebsites.net' }));
 
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/cv", require("./routes/cvRoutes"));
