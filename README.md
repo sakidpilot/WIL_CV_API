@@ -13,17 +13,36 @@ The CV Generator application is a MERN stack project designed to help users crea
 The application dynamically generates a formatted CV in PDF format using **PDFKit** on the backend. Users can preview and download their CV for personal use. This project was developed with a focus on accessibility and usability, particularly for users who may not have access to professional CV creation tools.  
 
 ## Features  
-- **User Authentication**: Secure sign-up, login, and logout functionalities using JSON Web Tokens (JWT).  
-- **Dynamic Form Handling**: Users can add multiple entries for sections like education and work experience.  
-- **CV Generation**: Back-end functionality to format and generate a professional CV in PDF format.  
+- **User Authentication**: Secure sign-up, login, and logout functionalities using JSON Web Tokens (JWT).
+
+![1](https://github.com/user-attachments/assets/f2ad4803-6ac4-48bf-bf7b-5c91de0e8212)
+![2](https://github.com/user-attachments/assets/223e911c-b622-41e5-a9a2-4171b8903508)
+
+- **Dynamic Form Handling**: Users can add multiple entries for sections like education and work experience.
+
+![4](https://github.com/user-attachments/assets/50323234-3976-4ecc-8dc1-ae2ba93e3055)
+![5](https://github.com/user-attachments/assets/993f8388-baf6-4929-8cc2-b22a1012d0c6)
+
+- **CV Generation**: Back-end functionality to format and generate a professional CV in PDF format.
+
+![6](https://github.com/user-attachments/assets/19ac164c-d8de-4732-91ae-4a71afcaa8a4)
+
 - **Secure Access**: Only authenticated users can access CV generation features.  
-- **Responsive Design**: A user-friendly frontend built with React ensures accessibility across devices.  
-- **CI/CD Pipeline**: Continuous Integration and Continuous Deployment (CI/CD) set up using Azure and GitHub Actions.  
+- **Responsive Design**: A user-friendly frontend built with React ensures accessibility across devices.
+
+![3](https://github.com/user-attachments/assets/8d68382f-32c7-4d93-ba28-9040236b889f)
+
+
+- **CI/CD Pipeline**: Continuous Integration and Continuous Deployment (CI/CD) set up using Azure and GitHub Actions.
+
 - **Code Analysis**: SonarQube integrated for code quality analysis and reporting.  
 
 ---
 
 ## Tech Stack  
+
+### ERD
+![mern cv ERD](https://github.com/user-attachments/assets/75147be4-4a8b-4ce7-941e-7a1868505438)
 
 ### Frontend  
 - **React.js**  
@@ -70,6 +89,8 @@ The application dynamically generates a formatted CV in PDF format using **PDFKi
 ---
 
 ## Deployment  
+
+![7](https://github.com/user-attachments/assets/2ac7f9ae-963e-4ee0-8441-6f5a9cf0d2ce)
 
 ### Frontend  
 The React app is hosted on **Azure App Service**, ensuring high availability and scalability.  
@@ -131,3 +152,22 @@ The application will be accessible at `http://localhost:3000` (frontend) and `ht
 - **AI Assistance**: Integrating AI to suggest content improvements for CVs.  
 
 This project is a functional and scalable tool to help bridge the employment gap in South Africa, empowering individuals with limited access to professional resources.
+
+---
+
+## Thank you PrimeCode 
+
+---
+## Group memebers
+- KHATIJA 
+- SHEREL 
+- THABANI
+- KEEGAN
+- RAVELLE 
+- SAHIL 
+---
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
